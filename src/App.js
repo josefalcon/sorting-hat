@@ -57,6 +57,15 @@ function initialState() {
         { text: "Kind", house: House.HUFFLEPUFF },
       ],
     },
+    {
+      question: "What is your favorite subject in school?",
+      answers: [
+        { text: "Potions", house: House.SLYTHERIN },
+        { text: "Defence Against the Dark Arts", house: House.GRYFFINDOR },
+        { text: "Care of Magical Creatures", house: House.HUFFLEPUFF },
+        { text: "Transfiguration", house: House.RAVENCLAW },
+      ],
+    },
   ];
   return {
     quiz,
