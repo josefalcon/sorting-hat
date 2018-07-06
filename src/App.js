@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 import { ArrowLeft, Reload } from 'react-bytesize-icons';
+import { shuffle } from './Util';
 import Final from './Final';
 import Question from './Question';
 
@@ -67,6 +68,10 @@ function initialState() {
       ],
     },
   ];
+
+  quiz.forEach(q => shuffle(q.answers));
+  shuffle(quiz);
+
   return {
     quiz,
     answers: new Array(quiz.length),
