@@ -67,6 +67,24 @@ function initialState() {
         { text: "Transfiguration", house: House.RAVENCLAW },
       ],
     },
+    {
+      question: "What do you like to do during lunch?",
+      answers: [
+        { text: "Play games", house: House.GRYFFINDOR },
+        { text: "Hang out with friends", house: House.HUFFLEPUFF },
+        { text: "Homework", house: House.RAVENCLAW },
+        { text: "Get on your phone", house: House.SLYTHERIN },
+      ],
+    },
+    {
+      question: "What do you like to do on your phone?",
+      answers: [
+        { text: "Tweet", house: House.GRYFFINDOR },
+        { text: "Watch videos on puppies", house: House.HUFFLEPUFF },
+        { text: "Post pictures", house: House.RAVENCLAW },
+        { text: "Snapchat", house: House.SLYTHERIN },
+      ],
+    },
   ];
 
   quiz.forEach(q => shuffle(q.answers));
