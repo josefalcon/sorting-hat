@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://josefalcon.github.io/sorting-hat",
   "dependencies": {
+    "gh-pages": "^2.0.1",
     "react": "^16.4.1",
     "react-bytesize-icons": "^0.8.2",
     "react-dom": "^16.4.1",
