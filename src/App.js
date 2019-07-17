@@ -80,7 +80,7 @@ function initialState() {
       question: "What do you like to do on your phone?",
       answers: [
         { text: "Tweet", house: House.GRYFFINDOR },
-        { text: "Watch videos on puppies", house: House.HUFFLEPUFF },
+        { text: "Watch videos of puppies", house: House.HUFFLEPUFF },
         { text: "Post pictures", house: House.RAVENCLAW },
         { text: "Snapchat", house: House.SLYTHERIN },
       ],
