@@ -41,30 +41,12 @@ const House = {
 function initialState() {
   const quiz = [
     {
-      question: "How would you like to be known in history?",
-      answers: [
-        { text: "The Good", house: House.GRYFFINDOR },
-        { text: "The Great", house: House.HUFFLEPUFF },
-        { text: "The Wise", house: House.RAVENCLAW },
-        { text: "The Bold", house: House.SLYTHERIN },
-      ],
-    },
-    {
       question: "How would your friends describe you?",
       answers: [
         { text: "Brave", house: House.GRYFFINDOR },
         { text: "Creative", house: House.RAVENCLAW },
         { text: "Clever", house: House.SLYTHERIN },
         { text: "Kind", house: House.HUFFLEPUFF },
-      ],
-    },
-    {
-      question: "What is your favorite subject in school?",
-      answers: [
-        { text: "Potions", house: House.SLYTHERIN },
-        { text: "Defence Against the Dark Arts", house: House.GRYFFINDOR },
-        { text: "Care of Magical Creatures", house: House.HUFFLEPUFF },
-        { text: "Transfiguration", house: House.RAVENCLAW },
       ],
     },
     {
@@ -77,7 +59,7 @@ function initialState() {
       ],
     },
     {
-      question: "What do you like to do on your phone?",
+      question: "What do you like to do on your phone or computer?",
       answers: [
         { text: "Tweet", house: House.GRYFFINDOR },
         { text: "Watch videos of puppies", house: House.HUFFLEPUFF },
